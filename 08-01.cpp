@@ -4,7 +4,9 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
-  cout  << "Привет!" << endl;
+   int x = 16 / 5;
+
+   cout << x << endl;
 
   return 0;
 }

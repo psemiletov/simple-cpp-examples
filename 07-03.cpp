@@ -2,9 +2,15 @@
 
 using namespace std;
 
+int x = 13;
+
 int main (int argc, char *argv[])
 {
-  cout  << "Привет!" << endl;
+  if (x == 13)
+     {
+       int x = 0;
+       cout << x << endl;
+     }
 
   return 0;
 }

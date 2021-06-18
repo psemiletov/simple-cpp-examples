@@ -4,7 +4,8 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
-  cout  << "Привет!" << endl;
+   int x = 2;
+   cout << ++x << endl;
 
-  return 0;
+   return 0;
 }

@@ -4,7 +4,10 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
-  cout  << "Привет!" << endl;
+   float x = 5.5;
+   int y = 5;
 
-  return 0;
+   cout << y + x << endl;
+
+   return 0;
 }
