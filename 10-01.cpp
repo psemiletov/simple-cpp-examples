@@ -4,15 +4,15 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
-  string блокнот [3];
+  float суммы [3];
  
-  блокнот[0] = "один"; 
-  блокнот[1] = "два"; 
-  блокнот[2] = "три"; 
+  суммы[0] = 1.0; 
+  суммы[1] = 12.5; 
+  суммы[2] = 44.0; 
 
-  cout << блокнот[0] << endl;
-  cout << блокнот[1] << endl;
-  cout << блокнот[2] << endl;
+  cout << суммы[0] << endl;
+  cout << суммы[1] << endl;
+  cout << суммы[2] << endl;
 
   return 0;
 }
